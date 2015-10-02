@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/rozsuwane-menu.css" rel="stylesheet">
+    <link href="css/strzalki-przyspieszen.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #miniaturka{
+            right: 20px !important;
+        }
+    </style>
+  </head>
+  <body>
+        <div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas">
+          <a class="navmenu-brand" href="#">Temperature</a>
+          <ul class="nav navmenu-nav" id="opcja1">
+            <li><a href="#">Opcja1</a></li>
+            <li><a href="#">Opcja1</a></li>
+            <li><a href="#">Opcja1</a></li>
+            <li><a href="#">Opcja1</a></li>
+          </ul>
+          <ul class="nav navmenu-nav" id="opcja2">
+            <li><a href="#">Opcja2</a></li>
+            <li><a href="#">Opcja2</a></li>
+            <li><a href="#">Opcja2</a></li>
+            <li><a href="#">Opcja2</a></li>
+          </ul>
+          <ul class="nav navmenu-nav" id="opcja3">
+              <li><a href="#">Opcja3</a></li>
+              <li><a href="#">Opcja3</a></li>
+              <li><a href="#">Opcja3</a></li>
+              <li><a href="#">Opcja3</a></li>
+          </ul>
+        </div>
+
+    <!--    <div class="navbar navbar-default navbar-fixed-top">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">-->
+        <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle btn btn-info" id="miniaturka">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                   <center>
+                        <ul class="nav navbar-nav" id="menu_top">
+                            <li class="active"><a href="#">Str1</a></li>
+                            <li><a href="#">Str2</a></li>
+                            <li><a href="#">Str3</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-right">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_sign" id="button_sign"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign in / Registration</button>
+                        </form>
+                    </center>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <h3>Jakis tekst albo i nie</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore qui repellendus facilis tempore libero dicta eveniet, repellat velit aperiam quod adipisci vel ipsum veniam minima deleniti hic ex! Nostrum est, quidem sunt, debitis pariatur libero adipisci quam, saepe perferendis iusto dolore alias odit sint quisquam aliquid vitae id. Quas aspernatur, blanditiis possimus nulla deleniti tempore facilis doloremque cupiditate corrupti sed optio maxime alias officiis expedita dolores velit, rerum accusantium, laborum veritatis officia totam beatae a quae assumenda! Natus facilis quidem inventore odit, neque minus minima vero fugiat nihil autem impedit voluptates harum, dolorum laboriosam eligendi at! Dolore nisi impedit sapiente?</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#options" id="button_options"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</button>
+                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#options">Opcje</button>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4 class="text-center">Dnia 25/11/2015</h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus, at officia amet, soluta, ullam repellendus unde vitae necessitatibus blanditiis laborum ab voluptatum, accusamus doloremque. Quo nisi, blanditiis distinctio fugiat, modi qui at veniam? Tenetur excepturi non, minima quam illo voluptatum amet quidem, laborum voluptas provident iure iste odio? Commodi doloribus hic eaque repellendus quia vitae nemo molestiae rerum tempore repellat. Quibusdam unde dolorum nostrum aspernatur aliquid inventore, amet ex reiciendis? Sit nobis sed hic eaque rerum a pariatur aut beatae odit, officiis, facere delectus voluptate quisquam ratione repellat voluptas quaerat magnam. Debitis nam praesentium, dolores architecto, veniam inventore ipsa.</p>
+                            <div class="btn-group btn-group-justified">
+    <!--
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#options" id="button_options"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</button>
+    -->
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#options" id="button_options"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</a>
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <p>Udostepniony przez uzytkownika qwertyuiasdfghjklz</p>
+                        </div>
+                    </div><!--/panel-default-->
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4 class="text-center">Dnia 25/11/2015</h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus, at officia amet, soluta, ullam repellendus unde vitae necessitatibus blanditiis laborum ab voluptatum, accusamus doloremque. Quo nisi, blanditiis distinctio fugiat, modi qui at veniam? Tenetur excepturi non, minima quam illo voluptatum amet quidem, laborum voluptas provident iure iste odio? Commodi doloribus hic eaque repellendus quia vitae nemo molestiae rerum tempore repellat. Quibusdam unde dolorum nostrum aspernatur aliquid inventore, amet ex reiciendis? Sit nobis sed hic eaque rerum a pariatur aut beatae odit, officiis, facere delectus voluptate quisquam ratione repellat voluptas quaerat magnam. Debitis nam praesentium, dolores architecto, veniam inventore ipsa.</p>
+                             <div class="btn-group btn-group-justified">
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</a>
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <p>Udostepniony przez uzytkownika qwertyuiasdfghjklz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4 class="text-center">Dnia 25/11/2015</h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus, at officia amet, soluta, ullam repellendus unde vitae necessitatibus blanditiis laborum ab voluptatum, accusamus doloremque. Quo nisi, blanditiis distinctio fugiat, modi qui at veniam? Tenetur excepturi non, minima quam illo voluptatum amet quidem, laborum voluptas provident iure iste odio? Commodi doloribus hic eaque repellendus quia vitae nemo molestiae rerum tempore repellat. Quibusdam unde dolorum nostrum aspernatur aliquid inventore, amet ex reiciendis? Sit nobis sed hic eaque rerum a pariatur aut beatae odit, officiis, facere delectus voluptate quisquam ratione repellat voluptas quaerat magnam. Debitis nam praesentium, dolores architecto, veniam inventore ipsa.</p>
+                             <div class="btn-group btn-group-justified">
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</a>
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <p>Udostepniony przez uzytkownika qwertyuiasdfghjklz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4 class="text-center">Dnia 25/11/2015</h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus, at officia amet, soluta, ullam repellendus unde vitae necessitatibus blanditiis laborum ab voluptatum, accusamus doloremque. Quo nisi, blanditiis distinctio fugiat, modi qui at veniam? Tenetur excepturi non, minima quam illo voluptatum amet quidem, laborum voluptas provident iure iste odio? Commodi doloribus hic eaque repellendus quia vitae nemo molestiae rerum tempore repellat. Quibusdam unde dolorum nostrum aspernatur aliquid inventore, amet ex reiciendis? Sit nobis sed hic eaque rerum a pariatur aut beatae odit, officiis, facere delectus voluptate quisquam ratione repellat voluptas quaerat magnam. Debitis nam praesentium, dolores architecto, veniam inventore ipsa.</p>
+                             <div class="btn-group btn-group-justified">
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</a>
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <p>Udostepniony przez uzytkownika qwertyuiasdfghjklz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4 class="text-center">Dnia 25/11/2015</h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus, at officia amet, soluta, ullam repellendus unde vitae necessitatibus blanditiis laborum ab voluptatum, accusamus doloremque. Quo nisi, blanditiis distinctio fugiat, modi qui at veniam? Tenetur excepturi non, minima quam illo voluptatum amet quidem, laborum voluptas provident iure iste odio? Commodi doloribus hic eaque repellendus quia vitae nemo molestiae rerum tempore repellat. Quibusdam unde dolorum nostrum aspernatur aliquid inventore, amet ex reiciendis? Sit nobis sed hic eaque rerum a pariatur aut beatae odit, officiis, facere delectus voluptate quisquam ratione repellat voluptas quaerat magnam. Debitis nam praesentium, dolores architecto, veniam inventore ipsa.</p>
+                             <div class="btn-group btn-group-justified">
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</a>
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <p>Udostepniony przez uzytkownika qwertyuiasdfghjklz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4 class="text-center">Dnia 25/11/2015</h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus, at officia amet, soluta, ullam repellendus unde vitae necessitatibus blanditiis laborum ab voluptatum, accusamus doloremque. Quo nisi, blanditiis distinctio fugiat, modi qui at veniam? Tenetur excepturi non, minima quam illo voluptatum amet quidem, laborum voluptas provident iure iste odio? Commodi doloribus hic eaque repellendus quia vitae nemo molestiae rerum tempore repellat. Quibusdam unde dolorum nostrum aspernatur aliquid inventore, amet ex reiciendis? Sit nobis sed hic eaque rerum a pariatur aut beatae odit, officiis, facere delectus voluptate quisquam ratione repellat voluptas quaerat magnam. Debitis nam praesentium, dolores architecto, veniam inventore ipsa.</p>
+                             <div class="btn-group btn-group-justified">
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Options</a>
+                                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <p>Udostepniony przez uzytkownika qwertyuiasdfghjklz</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/row-->
+        </div><!--/container-->
+
+        <!--arrow-->
+        <button type="button" class="btn btn-default" href="#footer" id="przenies-dol">
+            <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="btn btn-default" href="#" id="przenies-gora">
+            <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+        </button>
+        <!--/arrow-->
+        <!--Footer-->
+        <div class="container-fluid" style="background: black;">
+            <p class="text-center" id="footer" style="color:white;">Blablblablablalb</p>
+        </div>
+        <!--/Footer-->
+
+        <div class="modal fade" id="modal_sign">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Hello User!</h4>
+                    </div><!--/modal-header-->
+                    <div class="modal-body">
+                        <h4>Sign in:</h4>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="nick_field" class="col-xs-2">Nick:</label>
+                                <div class="col-xs-10">
+                                    <input type="text" class="form-control" id="nick_field" placeholder="Your Nick"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password_field" class="col-xs-2">Password:</label>
+                                <div class="col-xs-10">
+                                    <input type="text" class="form-control" id="password_field" placeholder="Your Password"
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-body">
+                        <p>You don't have account? <button type="button" class="btn btn-primary btn-xs" id="show_registration">Registration</button></p>
+                        <p>You don't have account? <a href="#">Registration</a></p>
+                        <form class="form-horizontal" id="modal_registration">
+                            <div class="form-group">
+                                <label for="registration_nick_field" class="col-xs-2">Nick:</label>
+                                <div class="col-xs-10">
+                                    <input type="text" class="form-control" id="registration_nick_field" placeholder="Your Nick"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="registration_mail_field" class="col-xs-2">E-mail:</label>
+                                <div class="col-xs-10">
+                                    <input type="text" class="form-control" id="registration_mail_field" placeholder="Your E-mail"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="registration_password_field" class="col-xs-2">Password:</label>
+                                <div class="col-xs-10">
+                                    <input type="text" class="form-control" id="registration_password_field" placeholder="Your Password"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Sign in</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div> <!--modal-footer-->
+                </div><!--/modal-content-->
+            </div><!--/modal-dialog-->
+        </div><!--/modal fade-->    
+        <div class="modal fade" id="options">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Options</h4>
+                    </div><!--/modal-header-->
+                    <div class="modal-body">
+                        <h4>Sign in:</h4>
+                        <p>adjhaskjdhjakdh</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Sign in</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div> <!--modal-footer-->
+                </div><!--/modal-content-->
+            </div><!--/modal-dialog-->
+        </div><!--/modal fade-->
+
+
+        <!--Scripts-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jasny-bootstrap.min.js"></script>
+    
+        <script>
+            $(function(){
+                $("#przenies-gora").click(function(e){
+                    e.preventDefault();
+                    $("html,body").animate({scrollTop:0},1500);
+                });
+            });
+        </script>
+        
+        <script> /*Przesuwanie w dol*/
+            var wysokosc_strony = $(document).height();
+            $(function(){
+                $("#przenies-dol").click(function(e){
+                    e.preventDefault();
+                    $("html,body").animate({scrollTop: wysokosc_strony}, 1500);
+                });
+            });
+        </script>
+        
+        <script>
+            var pokaz = false;
+            $(window).scroll(function(){
+               var win_height = 315; //odleglosc w ktorej maja sie pokazac
+               var scroll_top = $(document).scrollTop(); //odleglosc na jaka przewinal w dol
+               if (scroll_top > win_height && !pokaz) {
+                  pokaz = true;
+                   //pokazanie strzalek
+                  $("#przenies-gora").fadeIn();
+                    $("#przenies-dol").fadeIn();
+               } else if (scroll_top < win_height && pokaz) {
+                  pokaz = false;
+                    //ukrycie strzalek
+                  $("#przenies-gora").fadeOut();
+                   $("#przenies-dol").fadeOut();
+               }
+           });
+        </script>
+        
+        <script>
+            $("#button_sign").click(function(){
+                $("#modal_registration").hide();
+            });
+        </script>
+        
+        <script>
+            $("#show_registration").click(function(){
+                $("#modal_registration").fadeToggle();
+            });
+        </script>
+        
+        <script>
+            var $window = $(window);
+            if ($window.width() < 770){
+                $("#miniaturka").show();
+            }
+            else{
+                $("#miniaturka").hide();
+            }
+        </script>
+        
+        <script>
+            $("#menu_top").on("click", "li", function(){
+                var selected = $(this);
+                $("li").each(function(){
+                    $(this).removeClass();
+                });
+                selected.addClass("active");
+                var counter = 1;
+                $("li").each(function(){
+                    if ($(this).is(".active")){
+                        if (counter ==1){
+                            $("#opcja1").show();
+                            $("#opcja2").hide();
+                            $("#opcja3").hide();
+                        }
+                        else if(counter ==2){
+                            $("#opcja1").hide();
+                            $("#opcja2").show();
+                            $("#opcja3").hide();
+                        }
+                        else{
+                            $("#opcja1").hide();
+                            $("#opcja2").hide();
+                            $("#opcja3").show();
+                        }
+                        break;
+                    }
+                    else{
+                        counter++;
+                    }
+                });
+            });
+        </script>
+
+  </body>
+</html>
