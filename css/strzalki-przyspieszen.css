@@ -1,0 +1,21 @@
+#przenies-gora{
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.8;
+}
+#przenies-gora:hover{
+    opacity: 1;
+}
+
+#przenies-dol{
+    display: none;
+    position: fixed;
+    top: 65px;
+    right: 15px;
+    opacity: 0.8;
+}
+#przenies-dol:hover{
+    opacity: 1;
+}
